@@ -1,9 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
+import 'package:test_task_pasha/core/injector/locator.dart';
 
 import '../../core/constants/api_constants.dart';
 
 @singleton
+@environment
 class ApiService {
 
   Dio? dio;
