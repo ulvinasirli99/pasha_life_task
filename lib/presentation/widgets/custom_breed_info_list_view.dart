@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:test_task_pasha/core/constants/dimensions_constant.dart';
-import '../../../data/cat/dto/cat_response/cat_detail_response.dart';
+
+import '../../data/remote/cat/dto/cat_response/cat_detail_response.dart';
+
 
 
 class CustomBreedInfo extends StatelessWidget {

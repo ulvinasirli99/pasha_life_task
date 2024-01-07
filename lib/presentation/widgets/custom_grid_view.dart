@@ -6,7 +6,7 @@ import 'package:test_task_pasha/presentation/screens/detail_screen.dart';
 import 'package:test_task_pasha/presentation/widgets/custom_cat_grid_item.dart';
 import 'package:test_task_pasha/presentation/widgets/custom_progress.dart';
 
-import '../../data/cat/dto/cat_response/cat_response.dart';
+import '../../data/remote/cat/dto/cat_response/cat_response.dart';
 
 class CustomGridView extends StatelessWidget {
   const CustomGridView({
